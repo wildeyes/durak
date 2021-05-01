@@ -1,3 +1,3 @@
-defmodule DurakWeb.PageView do
+defmodule DurakWeb.GamesView do
   use DurakWeb, :view
 end

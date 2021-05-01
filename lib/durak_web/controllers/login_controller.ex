@@ -1,7 +1,7 @@
-defmodule DurakWeb.LoginController do
+defmodule DurakWeb.PageController do
   use DurakWeb, :controller
 
   def index(conn, _params) do
-    render(conn, "login.html")
+    render(conn, "index.html")
   end
 end

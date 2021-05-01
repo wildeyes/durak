@@ -1,0 +1,3 @@
+<div class="phx-hero">
+  <h2>Game #<%= @gameNo %>: <%= @meName %> vs. <%= @opponentName %></h2>
+</div>

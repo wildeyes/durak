@@ -17,6 +17,8 @@ defmodule DurakWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/login", LoginController, :index
+    get "/game/:gameTag", GameController, :index
   end
 
   # Other scopes may use custom stacks.
